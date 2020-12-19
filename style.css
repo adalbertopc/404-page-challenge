@@ -66,6 +66,7 @@ body {
 .info__back-to-home {
 	background: #333333;
 	color: #fff;
+	cursor: pointer;
 	font-size: 14px;
 	text-transform: uppercase;
 	display: flex;
