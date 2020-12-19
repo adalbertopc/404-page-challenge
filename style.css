@@ -28,6 +28,7 @@ body {
 	font-family: 'Inconsolata';
 	text-transform: uppercase;
 	font-size: 24px;
+	letter-spacing: -0.08em;
 }
 
 .main {
@@ -85,7 +86,7 @@ body {
 	text-align: center;
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 769px) and (orientation: landscape) {
 	.container {
 		width: 90%;
 	}
